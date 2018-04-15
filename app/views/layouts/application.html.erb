@@ -10,6 +10,14 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <!-- Navigation -->
+    <%= render 'layouts/navigation' %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <%= render 'layouts/footer' %>
   </body>
 </html>
