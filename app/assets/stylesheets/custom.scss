@@ -15,6 +15,11 @@ nav {
   border: green solid 2px;
 }
 
+// Wrap for sticky footer
+.wrap {
+  min-height: calc(100vh - 89px);
+}
+
 // Jumbotron
 .jumbotron {
   background-image: asset-url('home/plate-line.jpeg');
